@@ -4,16 +4,22 @@
     margin: 0;
   }
   
+ 
+
   body {
-    background-color: #d9dcd6;
+    background-image: url('/assets/pictures/matrix.jpg');
+    background-color: #D8C3A5;
+    background-blend-mode: auto;
+    background-size: cover;
+    /* background-image: href=('/assets/pictures/matrix.jpg'); */
   }
   
   .header {
     padding: 20px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
-    background-color: #bb640085;
-    color: #0026ffb7;
+    background-color: #EAE7DC;
+    color: #E85A4F;
     
   }
   
@@ -24,7 +30,7 @@
   }
   
   .header h1 {
-    color: #0004ff;
+    color: #E85A4F;
   }
   
   .header nav {
@@ -45,8 +51,9 @@
   }
   
   a {
-    color: #ffffff;
+    color: #E85A4F;
     text-decoration: none;
+    font-weight: bolder;
   }
   
   p {
@@ -80,7 +87,7 @@
     margin-left: 20px;
   }
   
-  .benefits {
+  /* .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -137,44 +144,47 @@
     display: block;
     margin: 10px auto;
     max-width: 150px;
-  }
+  } */
   
   .aboutme {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    width: 2500px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: #EAE7DC;
+    color: #E85A4F;
   }
   
-  .online-reputation-management {
+  .github {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    width: 2500px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: #EAE7DC;
+    color: #E85A4F;
   }
   
-  .social-media-marketing {
+  .contact {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    width: 2500px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: #EAE7DC;
+    color: #E85A4F;
   }
   
   .aboutme img {
     max-height: 200px;
   }
   
-  .online-reputation-management img {
+  .github img {
     max-height: 200px;
   }
   
-  .social-media-marketing img {
+  .contact img {
     max-height: 200px;
   }
   
@@ -183,12 +193,12 @@
     font-size: 36px;
   }
   
-  .online-reputation-management h2 {
+  .github h2 {
     margin-bottom: 20px;
     font-size: 36px;
   }
   
-  .social-media-marketing h2 {
+  .contact h2 {
     margin-bottom: 20px;
     font-size: 36px;
   }
