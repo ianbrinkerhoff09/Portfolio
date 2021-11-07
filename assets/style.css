@@ -32,7 +32,25 @@
   .header h1 {
     color: #E85A4F;
   }
-  
+
+
+    ul li {
+
+    display:block;
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+ul li a
+{
+
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    padding-right:.5em;
+    color: #696969;
+}
   .header nav {
     padding-top: 15px;
     margin-right: 20px;
